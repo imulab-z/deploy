@@ -23,4 +23,7 @@ kubectl create configmap refresh-token-service-config --from-env-file refresh-to
 
 # id-token-service
 kubectl create configmap id-token-service-config --from-env-file id-token-service-config.env
+
+# login-consent-session-service
+kubectl create configmap login-consent-session-service-config --from-env-file login-consent-session-service-config.env
 ```
