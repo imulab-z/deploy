@@ -26,4 +26,7 @@ kubectl create configmap id-token-service-config --from-env-file id-token-servic
 
 # login-consent-session-service
 kubectl create configmap login-consent-session-service-config --from-env-file login-consent-session-service-config.env
+
+# token-endpoint-gateway-service
+kubectl create configmap token-endpoint-gateway-service-config --from-env-file token-endpoint-gateway-service-config.env
 ```
