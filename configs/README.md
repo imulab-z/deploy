@@ -29,4 +29,7 @@ kubectl create configmap login-consent-session-service-config --from-env-file lo
 
 # token-endpoint-gateway-service
 kubectl create configmap token-endpoint-gateway-service-config --from-env-file token-endpoint-gateway-service-config.env
+
+# authorize-endpoint-gateway-service
+kubectl create configmap authorize-endpoint-gateway-service-config --from-env-file authorize-endpoint-gateway-service-config.env
 ```
